@@ -1,14 +1,15 @@
 body {
-    margin: 10;
-    font-family:"Playfair Display", Georgia, 'Times New Roman', Times, serif ;
-    background-color:#E6EBE0; 
+    margin: 10;  
+    font-family: "sofia-pro", sans-serif;
   }
 
+
 #title {
+  font-family: "rl-aqva", sans-serif;
   font-style: normal;
   font-size:60;
   padding-top: 70;
-  text-align:center;
+  text-align:left;
 }
 
 #subtitle {
@@ -54,6 +55,7 @@ h3 {
 }
 
 #nav-bar {
+  font-family: "Playfair Display";
   display: flex;
   flex-direction:row;
 }
