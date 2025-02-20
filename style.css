@@ -1,15 +1,18 @@
 body {
     margin: 10;  
     font-family: "sofia-pro", sans-serif;
+    font-weight: 400;
+    color:#29335C;
+    background-color: #fce7e6;
   }
 
 
 #title {
   font-family: "rl-aqva", sans-serif;
   font-style: normal;
-  font-size:60;
-  padding-top: 70;
-  text-align:left;
+  font-size:50;
+  padding-top: 100;
+  text-align:center;
 }
 
 #subtitle {
@@ -17,30 +20,34 @@ body {
 }
 
 h1 {
-  font-weight: 500;
+  font-size: 70;
+  font-family:"rl-aqva", sans-serif;
+  text-align:center;
 }
 
 h3 {
   text-align: center;
-  font-size: 25;
   font-weight:300;
 }
 
-<!-- nav bar 
+span.highlight {
+  color: #DD4B1A;
+}
+
+.container {
+  width: 92%;
+  margin:auto;
+  height: 100%;
+  border: 2px red;
+}
+
+*/ nav bar */
 
 .overlay {
   height: 100%;
   width: 0;
   position: fixed; 
   transition: 0.5s;
-}
-
-.overlay-content {
-  position: relative;
-  top: 10%; 
-  width: 45%;
-  text-align: center;
-  margin-top: 2px; 
 }
 
 .overlay a {
@@ -51,11 +58,10 @@ h3 {
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: #9BC1BC;
+  color: #DD4B1A;
 }
 
 #nav-bar {
-  font-family: "Playfair Display";
   display: flex;
   flex-direction:row;
 }
@@ -67,7 +73,7 @@ h3 {
 }
 
 .nav-item a{
-  color:black;
+  color:#29335C;
   text-decoration: none;
 }
 
@@ -79,3 +85,4 @@ h3 {
   #nav-bar{
      flex-direction: column}
 }
+
