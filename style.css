@@ -82,4 +82,19 @@ aside > p {
 
 .nav-item {
   margin: auto;
-  align-content: cente
+  align-content: center;
+}
+
+.nav-item a{
+  color:#29335C;
+  text-decoration: none;
+}
+
+@media (orientiation:portrait){
+  #content{
+    width:100%;
+    line-height: 1.5em;
+    font-size: 1.5em;}
+  #nav-bar{
+     flex-direction: column}
+}
