@@ -35,13 +35,27 @@ span.highlight {
 }
 
 .container {
-  width: 92%;
   margin:auto;
-  height: 100%;
-  border: 2px red;
 }
 
+aside {
+  position:relative;
+  width: 75%;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #DD4B1A;
+  font-style: italic;
+  font-weight: 300;
+  margin: auto;
+  padding-top: 18px;
+  padding-right: 14%;
+}
+
+aside > p {
+  margin: 0.5rem;}
+
 */ nav bar */
+
+*/ I got this from a portfolio I had made with a website building tool. */
 
 .overlay {
   height: 100%;
@@ -67,22 +81,5 @@ span.highlight {
 }
 
 .nav-item {
-  display: inline-block;
   margin: auto;
-  align-content: center;
-}
-
-.nav-item a{
-  color:#29335C;
-  text-decoration: none;
-}
-
-@media (orientiation:portrait){
-  #content{
-    width:100%;
-    line-height: 1.5em;
-    font-size: 1.5em;}
-  #nav-bar{
-     flex-direction: column}
-}
-
+  align-content: cente
