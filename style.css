@@ -85,11 +85,11 @@ aside > p {
 #nav-bar {
   display: flex;
   flex-direction:row;
+  position: sticky;
 }
 
 .nav-item {
   margin: auto;
-  align-content: center;
 }
 
 .nav-item a{
@@ -108,6 +108,5 @@ aside > p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: purple;
   }
 }
