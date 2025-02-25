@@ -30,21 +30,12 @@ h3 {
   font-weight:300;
 }
 
-thead {
-  font-weight: 700;
-}
-
-tr {
-  font-style: italic;
-}
-
 span.highlight {
   color: #DD4B1A;
 }
 
 .container {
   margin:auto;
-  border:solid red;
 }
 
 aside {
@@ -62,7 +53,14 @@ aside {
 aside > p {
   margin: 0.5rem;}
 
-*/ nav bar */
+#section{
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  padding-right: 20%;
+}
+
+  */ nav bar stuff */ 
 
 */ I got this from a portfolio I had made with a website building tool. */
 
@@ -106,4 +104,10 @@ aside > p {
     font-size: 1.5em;}
   #nav-bar{
      flex-direction: column}
+  #section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: purple;
+  }
 }
