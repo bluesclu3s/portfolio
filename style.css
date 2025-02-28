@@ -46,10 +46,14 @@ span.highlight {
 
 .container {
   margin:auto;
-  padding-right: 30%;
+  max-width:fit-content;
   display: flex;
-  flex-direction: row;
+  border: 2px solid red;
+  padding-right: 50%;
+  background-size: contain;
 }
+
+/* this was from the Mozilla website */
 
 aside {
   position:relative;
@@ -84,7 +88,7 @@ header{
 #crop{
   width: 100%;
   height: 100%;
-  float:left;
+  float: left;
 }
 
 #cutline{
@@ -97,7 +101,6 @@ header{
   font-weight: 200;
   padding-right: 10%;
 }
-
 
   /* nav bar stuff */ 
 
