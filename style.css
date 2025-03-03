@@ -44,41 +44,35 @@ span.highlight {
   justify-content: center
 }
 
-.container {
+#container {
   margin:auto;
-  max-width:fit-content;
   display: flex;
-  border: 2px solid red;
-  padding-right: 50%;
-  background-size: contain;
+  flex-direction: row;
+  width: 100%;
+  gap: 4%;
+}
+
+#sub{
+  width: fit-content;
+  max-width: 100%;
+}
+
+#border{
+  display: flex;
+  border: 2px solid #252525;
+  width:100%;
 }
 
 /* this was from the Mozilla website */
 
 aside {
   position:relative;
-  width: 75%;
-  float: right;
-  box-shadow: inset 5px 0 5px -5px #e34a33;
+  float: left;
   font-style: italic;
-  font-weight: 300;
   margin: auto;
-  margin-top: 13%;
-  padding-right: 14%;
+  padding-right: 20;
 }
 
-aside > p {
-  margin: 0.5rem;}
-
-#section{
-  display:flex;
-  flex-direction: row;
-  width: 100%;
-}
-
-#sub{
-  padding-right: 3%;
-}
 
 header{
   padding: 20;
@@ -86,8 +80,8 @@ header{
 }
 
 #crop{
-  width: 100%;
-  height: 100%;
+  width: 10%;
+  height: 10%;
   float: left;
 }
 
@@ -99,7 +93,7 @@ header{
   margin:auto;
   padding-left: 10%;
   font-weight: 200;
-  padding-right: 10%;
+  padding-right: 5cap;
 }
 
   /* nav bar stuff */ 
