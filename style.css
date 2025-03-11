@@ -129,6 +129,11 @@ header{
   text-decoration: none;
 }
 
+#content{
+  width:75%;
+  margin:auto;
+}
+
 @media (orientiation:portrait){
   #content{
     width:100%;
